@@ -1,0 +1,261 @@
+/* body{
+    display: flex;
+    flex-direction: column;
+} */
+
+*{
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    width: 85%;
+    margin: auto;
+}
+
+header{
+    /* background-color: aqua; */
+    width: 100%;
+    margin-top: 5vh;
+}
+
+input{
+    text-align: center;
+    width: 99.4%;
+    border-radius: 5px;
+    height: 8vh;
+    font-size: 20px;
+    background-color: #e1e4e8;
+    border: solid #cfd1d4;
+}
+
+h1{
+    font-size: 45px;
+}
+
+a{
+    text-decoration: none;
+}
+
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+a{
+    margin-top: 9vh;
+    display: block;
+    width: 38vw;
+    margin-bottom: 2vh;
+    /* flex-wrap: nowrap; */
+
+}
+
+#cardPokemon{
+    border-radius: 8px;
+    height: 22vh;
+    padding: 30px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.textCard{
+    display: flex;
+    flex-direction: column;
+}
+
+.numberPosition{
+    color: #17171b99;
+    font-size: 22px;
+}
+
+.name{
+    margin-top: -2vh;
+    font-size: 30px;
+    color: white;
+}
+
+.name::first-letter{
+    text-transform: uppercase;
+}
+
+.imgSprite{
+    width: 15vw;
+    /* margin-top: -5vh; */
+}
+
+.category{
+    /* border: #e1e4e8 solid 1px; */
+    border-radius: 7px;
+    width: 8vw;
+}
+
+
+#categories{
+    display: flex;
+    justify-content: space-between;
+    width: 17vw;
+}
+
+.category span{
+    color: white;
+}
+
+.grass{
+    background-color: #8bbe8a;
+}
+
+.grassSpan{
+    background-color: #3b8b39;
+    text-align: center;
+}
+
+.fire{
+    background-color: #fdb46d;
+}
+
+.fireSpan{
+    background-color: #c94949;
+    text-align: center;
+}
+
+.electric{
+    background-color: #e5c834;
+}
+
+.electricSpan{
+    background-color: #c9af29;
+    text-align: center;
+}
+
+.water{
+    background-color: #518cd3;
+}
+
+.waterSpan{
+    background-color: #48aeb7;
+    text-align: center;
+}
+
+.ground{
+    background-color: #938959;
+}
+
+.groundSpan{
+    background-color: #9d9778;
+    text-align: center;
+}
+
+.rock{
+    background-color: #838383;
+}
+
+.rockSpan{
+    background-color: #534f3d;
+    text-align: center;
+}
+
+.fairy{
+    background-color: #dba1d7;
+}
+
+.fairySpan{
+    background-color: #db70d6;
+    text-align: center;
+}
+
+.poison{
+    background-color: #3da93f;
+}
+
+.poisonSpan{
+    background-color: #1e531d;
+    text-align: center;
+}
+
+.bug{
+    background-color: #9fc7a1;
+}
+
+.bugSpan{
+    background-color: #8dcf6a;
+    text-align: center;
+}
+
+.dragon{
+    background-color: #bdb27c;
+}
+
+.dragonSpan{
+    background-color: #9bab69;
+    text-align: center;
+}
+
+.psychic{
+    background-color: #5e2e85;
+}
+
+.psychicSpan{
+    background-color: #8228a1;
+    text-align: center;
+}
+
+.flying{
+    background-color: #FCF7DE;
+}
+
+.flyingSpan{
+    background-color: #8d938a;
+    text-align: center;
+}
+
+.fighting{
+    background-color: #e38437;
+}
+
+.fightingSpan{
+    background-color: #c97d31;
+    text-align: center;
+}
+
+.normal{
+    background-color: #a5a5a5;
+}
+
+.normalSpan{
+    background-color: #adb7a8;
+    text-align: center;
+}
+
+.ghost{
+    background-color: #5e3f77;
+}
+
+.ghostSpan{
+    background-color: #a385ad;
+    text-align: center;
+}
+
+.ice{
+    background-color: #518cd3;
+}
+
+.iceSpan{
+    background-color: #166aaf;
+    text-align: center;
+}
+
+.dark{
+    background-color: #4c5c6f;
+}
+
+.darkSpan{
+    background-color: #5b6e78;
+    text-align: center;
+}
