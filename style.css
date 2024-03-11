@@ -86,14 +86,14 @@ a{
 }
 
 .imgSprite{
-    width: 15vw;
+    width: 11vw;
     /* margin-top: -5vh; */
 }
 
 .category{
     /* border: #e1e4e8 solid 1px; */
     border-radius: 7px;
-    width: 8vw;
+    width: 10vw;
 }
 
 
@@ -258,4 +258,18 @@ a{
 .darkSpan{
     background-color: #5b6e78;
     text-align: center;
+}
+
+@media screen and (max-width: 1115px){
+    a{
+        width: 100%;
+    }
+
+    .imgSprite{
+        width: 9.5rem;
+    }
+
+    #categories{
+        width: 21vw;
+    }
 }
